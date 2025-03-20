@@ -1,0 +1,749 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="To express my interests, hobbies, skills, and current focus in life. It serves as a showcase of various elements of my current interests such as coding projects that I have participated in and design ideas that I have created or intrigue me.">
+		<meta name="keywords" content="HTML, CSS, JavaScript, Coding, Gaming, Design">
+		<meta name="author" content="Bahulya Tandon">
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Bahulya Tandon</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png">
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!--flat icon css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css">	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+		<script>
+			function showPortfolio(x) {
+				let div1 = document.getElementById("animation");
+				let div2 = document.getElementById("modeling");
+				let div3 = document.getElementById("immersivear");
+				let div4 = document.getElementById("mendify");
+				let div5 = document.getElementById("quickbite");
+
+				if (x == 1) {
+					if (div1.style.display === "none") {
+						div1.style.display = "block";
+						div2.style.display = "none";
+						div3.style.display = "none";
+						div4.style.display = "none";
+						div5.style.display = "none";
+					} else {
+						div1.style.display = "none";
+					} 
+				} else if (x == 2) {
+					if (div2.style.display === "none") {
+						div2.style.display = "block";
+						div1.style.display = "none";
+						div3.style.display = "none";
+						div4.style.display = "none";
+						div5.style.display = "none";
+					} else {
+						div2.style.display = "none";
+					} 
+				} else if (x == 3) {
+					if (div3.style.display === "none") {
+						div3.style.display = "block";
+						div1.style.display = "none";
+						div2.style.display = "none";
+						div4.style.display = "none";
+						div5.style.display = "none";
+					} else {
+						div3.style.display = "none";
+					} 
+				} else if (x == 4) {
+					if (div4.style.display === "none") {
+						div4.style.display = "block";
+						div1.style.display = "none";
+						div2.style.display = "none";
+						div3.style.display = "none";
+						div5.style.display = "none";
+					} else {
+						div4.style.display = "none";
+					} 
+				} else if (x == 5) {
+					if (div5.style.display === "none") {
+						div5.style.display = "block";
+						div1.style.display = "none";
+						div2.style.display = "none";
+						div3.style.display = "none";
+						div4.style.display = "none";
+					} else {
+						div5.style.display = "none";
+					} 
+				}
+			}
+		</script>
+
+    </head>
+	
+	<body>
+		
+		<!-- top-area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">bahulya</a>
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                <li class=" smooth-menu active"></li>
+                                <li class="smooth-menu"><a href="#about">about me</a></li>
+                                <li class="smooth-menu"><a href="#education">education</a></li>
+								<li class="smooth-menu"><a href="#experience">experience</a></li>
+                                <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
+			                    <!-- <li class="smooth-menu"><a href="#design">design projects</a></li>
+			                    <li class="smooth-menu"><a href="#coding">coding projects</a></li> -->
+								<li class="smooth-menu"><a href="#contact">contact me</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+
+		    <div class="clearfix"></div>
+
+		</header><!-- /.top-area-->
+		<!-- top-area End -->
+	
+		<!--welcome-hero start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2><span>I am</span><br><span>Bahulya Tandon</span></h2>
+							<p>Graduating Senior at University of Wisconsin-Madison</p>
+							<a style="border-radius: 12px;" href="assets/download/resume.pdf" download>check out my resume</a>
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--about start -->
+		<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>about me</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									A programmer, designer and gamer at heart.
+								</h3>
+								<p>
+									I strive to cultivate my imagination into meaningful experiences for people - whether through the medium of immersive virtual environments, especially games, or by simplifying lives with innovative technology. My adaptable, insightful, and collaborative nature, paired with my technical expertise bridges the gap between creative and technical teams, ensuring seamless integration and innovation in every project I undertake.
+								<br>
+									Oh, and I make cool 3D models, animations, and small games in my free time.
+								</p>
+								<!--<div class="row">-->
+									<!-- <div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>608-772-7660</p>
+										</div>
+									</div> -->
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p><a href="mailto:btandon2@wisc.edu" target="_blank">btandon2@wisc.edu</a></p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>website</h3>
+											<p><a href = "https://github.com/BTandon16" target="_blank">www.github.com/BTandon16</a></p>
+										</div>
+									</div>
+								<!--</div>-->
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
+								<div class="about-list-icon">
+									<ul>
+										<li>
+											<a href="https://www.linkedin.com/in/bahulya-tandon/" target="_blank">
+												<i  class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+										<li>
+											<a href="https://www.instagram.com/bahulyatandon/" target="_blank">
+												<i  class="fa fa-instagram" aria-hidden="true"></i>
+											</a>
+										</li><!-- / li -->
+									</ul><!-- / ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.about-->
+		<!--about end -->
+		
+		<!--education start -->
+		<section id="education" class="education">
+			<div class="section-heading text-center">
+				<h2>education</h2>
+			</div>
+			<div class="container">
+				<div class="education-horizontal-timeline">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2021 - 2025</h2>
+									<h3>bachelor <span>of </span> computer science <span>and </span> information science</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											university of wisconsin-madison
+										</h4>
+										<h5>wisconsin, USA</h5>
+										<p class="description">
+											With a heavy focus on frontend development and animation, I also enjoyed courses about software development, algorithms and the inner workings of operating systems during my time at UW-Madison.
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<div class="experience-time">
+									<h2>2017 - 2021</h2>
+									<h3>high school diploma</h3>
+								</div><!--/.experience-time-->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">
+											delhi public school, r. k. puram
+										</h4>
+										<h5>delhi, India</h5>
+										<p class="description">
+											Pursued an avid interest in astronomy by writing a thesis on a drone that could be used for exploration around the toxic atmosphere of Venus. Participated in the School Cricket Team, and maintained a Scholar's Badge (for excellence in academics) for all 4 years. 
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!--/.education-->
+		<!--education end -->
+
+		<!--experience start -->
+		<section id="experience" class="experience">
+			<div class="section-heading text-center">
+				<h2>experience</h2>
+			</div>
+			<div class="container">
+				<div class="experience-content">
+						<div class="main-timeline">
+							<ul>
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>Apr. 2023 - Apr 2024</h2>
+													<h3>Director </h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															Wisconsin Union Directorate: Games
+														</h4>
+														<h5>Madison, Wisconsin, USA</h5>
+														<p class="description">
+															Managing a budget of $16,500 for student led programming and organizing regular events for 75+ attendees.
+															<br>Hiring, onboarding, organizing as well as leading a team of paid workers in a professional environment.
+															<br>Extensive experience in public speaking, crowd management and group organization. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														Jun. 2023 - Jul. 2023
+													</h2>
+													<h3>web development intern</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															hex business innovations
+														</h4>
+														<h5>faridabad, india</h5>
+														<p class="description">
+															Designed a website with a team for Lawcrux India, used by over 100+ client companies.
+															<br>Used JavaScript, React.js, and php to create, design and optimize the UI/UX features of websites.
+															<br>Designed custom components and custom hooks to be used in different applications.
+															<br>Data input and manipulation of the backend SQL tables through Axios API queries.
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														Jun. 2023 - Jul. 2023
+													</h2>
+													<h3>web development intern</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+							</ul>
+						</div><!--.main-timeline-->
+					</div><!--.experience-content-->
+			</div>
+
+		</section><!--/.experience-->
+		<!--experience end -->
+
+		<!--games start -->
+		<section id="portfolio" class="portfolio">
+			<div class="portfolio-details">
+				<div class="section-heading text-center">
+					<h2>Portfolio</h2>
+				</div>
+				<div class="container">
+					<div class="portfolio-content">
+						<div class="isotope">
+							<div class="row">
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/chess.PNG" alt="A Fool's Chess Game">
+										<div class="isotope-overlay">
+											<ul>
+												<li class="smooth-menu">
+													<a href='#animation' onclick='showPortfolio(1);' class="smooth-menu">
+														Animation - A Fool's Game
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="assets/images/portfolio/3dmodel.jpg" alt="3D Model of an Owlin">
+										<div class="isotope-overlay">
+											<ul>
+												<li class="smooth-menu">
+													<a href='#modeling' onclick='showPortfolio(2);' class="smooth-menu">
+														3D Modeling
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/immersivear.jpg" alt="Phone Augmented Reality">
+										<div class="isotope-overlay">
+											<ul>
+												<li class="smooth-menu">
+													<a href='#immersivear' onclick='showPortfolio(3);' class="smooth-menu">
+														Programming - Immersive AR Experience
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<div class="col-sm-4">
+									<div class="item">
+										<img src="assets/images/portfolio/mendify.png" alt="Mendify">
+										<div class="isotope-overlay">
+											<ul>
+												<li class="smooth-menu">
+													<a href='#mendify' onclick='showPortfolio(4);' class="smooth-menu">
+														UI/UX Design - Mendify
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+									<div class="item">
+										<img src="assets/images/portfolio/quickbite.png" alt="QuickBite">
+										<div class="isotope-overlay">
+											<ul>
+												<li class="smooth-menu">
+													<a href='#quickbite' onclick='showPortfolio(5);' class="smooth-menu">
+														UI/UX Design - QuickBite
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+								
+					<div id = "animation" style = "display:none">
+						<br><br>
+						<h1>A Fool's Game</h1>
+						<br>
+						<p>
+							An animation project made with Maya and Adobe Premiere Pro, with the idea of showing the footage of a drone covering the chess pieces on their “journey” through a chess game. An important part of my original idea for the animation was to create something that even people who have never played chess can understand.
+						</p>
+						<p>
+							I learned a lot about the framework that Maya provides for animation in only a month. Along with the basics of animation that were taught in class, a creative project with almost no restrictions meant that I had to do a lot of self learning to enact the ideas that I had in my mind. I took it as a challenge to learn as much as I can and try my best to not have to scope down my project idea, and eventually I did achieve that goal, so I feel really strongly about this project.
+						</p>
+						<p><br></p>
+						<!-- <video controls>
+							<source src="assets/videos/chess.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> -->
+						<iframe width="460" height="375" src="https://www.youtube.com/embed/z6hFm82rLz4?si=emH1fgCZnPoKOq8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+
+					<div id = "modeling" style = "display:none">
+						<br><br>
+						<h1>3D Modeling</h1>
+						<br>
+						<h2>Vanitas Project</h2>
+						<br>
+						<p>
+							I imagined a depiction of the differences in time for my Vanitas Project. The Tower, blocking the light coming in from above and casting a shadow over the world, depicts the future with the crude oil falling from the tower and broken down futuristic robots. The robots from the past in the outside world and the purity of the oil as it flows outside of the shade depict how life was better when the resources weren't being abused. The solar trees on the outside add to the renewability of the resources that are essential for the survival of the older robots, who are even helping out the futuristic robots stuck inside of the shadow.
+						</p>
+						<br>
+						<img src="assets/images/portfolio/vanitas.jpg" alt="Vanitas Robots" width="1000" height="800">
+						<br>
+						<br>
+						<h2>Character Model</h2>
+						<br>
+						<p>
+							The character I designed goes by the name Klyck, and he's an Owlin Rogue. He rocks vivid green wings that allow him to fly perfectly silently, making him the perfect option for stealthy operations and he rocks a bluish scarf because he believes it gives him a stealth buff (it doesn't... but I guess you gotta let him manifest). He's pretty proud of his violet crown of fur on the top of his head and has a cross birthmark in the middle of his face. He hides his eyes behind sunglasses which make it a little harder to see inside dark areas (where he usually is because he hides a lot) but he makes up for the difficulty due to his darkvision. 
+						</p>
+						<img src="assets/images/portfolio/3dmodel.jpg" alt="Owlin Front" width="800" height="600">
+						<br>
+						<br>
+						<img src="assets/images/portfolio/owlincloseup.jpg" alt="Owlin Front" width="800" height="600">
+					</div>
+
+					<div id = "immersivear" style = "display:none">
+						<br><br>
+						<h1>Immersive AR History Experience</h1>
+						<br>
+						<p>
+							<ul></ul>
+							<b>The Problem:</b> 
+						<br>
+							<ul>
+								<li>People have no incentives to visit historical sites</li>
+								<li>People visit historical sites but don't learn much about the significance and the history behind them</li>
+							</ul>
+						<br>
+							<b>The Solution:</b> 
+						<br>
+							<ul>
+								<li>Find an interactive and fun way to visualise and the understand the history of a place when you're there</li>
+							</ul>
+						<br>
+							<b>How:</b> 
+						<br>
+							<ul>
+								<li>Working with our mentors at PBS WI</li>
+								<li>Create an Augmented Reality Experience to immerse the user into the location</li>
+								<li>MindAR framework for the AR and React for the Website</li>
+							</ul>	
+						<br>	
+							<b>Why:</b> 
+							<ul>
+								<li>From our interviews, we understood that people would want to visit historical sites if there was a way to visualize the history at the location better.</li>
+							</ul>
+						<br>
+						The project was created by a team of 4 members, each working as a Software Engineer but also picking up more responsibilities in an Agile environment. While Mulan and Ankit focused on the AR aspect of the project, Vrishank picked up the responsibilities of managing the frontend of the project and I picked up the responsibilities of the Project Manager and created a timeline for the project to be completed in about 3 months (as a semester long project). By the end of the 3 month period, we not only completed the project from the programming point of view, but I also created some 3D models to make a surprising and fun in-person final demonstration of the project instead of only using assets that we had found online for free use.	
+						</p>
+						<br>
+						
+						<!-- <video controls>
+							<source src="assets/videos/capstone.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> -->
+						<iframe src="https://uwmadison.app.box.com/embed/s/fukw94e4kijjcy12zaoc1i6jsr5adcm2?sortColumn=date" width="500" height="400" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+					</div>
+
+					<div id = "mendify" style = "display:none">
+						<br><br>
+						<h1>Mendify - Mental Health made easier</h1>
+						<br>
+						We wanted to create this application to better meet the unique needs of college students, focusing on tools for emotional regulation, mindfulness, and easier/natural access to mental health resources at the university. Our team's goal was to implement an app that combines journaling, therapist/provider scheduling, guided practices, and crisis support in a single, accessible platform to achieve these goals.
+						<br>
+						<br>
+						Guided by the findings of our Contextual Interviews, we developed core design concepts to address the aforementioned challenges. Our main ideas include: 
+						<br>
+						<ol>
+							<br>
+							<li>
+								A unified dashboard that consolidates all mental health resources
+							</li>
+							<li>
+								An emergency functionality that can be reached in less than 2 clicks
+							</li>
+							<li>
+								A clear therapist scheduling feature that humanizes and segregates the process between routine and crisis
+							</li>
+							<li>
+								A secure journaling tool
+							</li>
+							<br>	
+						</ol> 
+
+						<iframe 
+							style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+							width="800" 
+							height="450" 
+							src="https://embed.figma.com/proto/Wh7HmD8xPRQJG9nnTwyieX/Mendify-(Updated)?node-id=1-118&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A118&embed-host=share" 
+							allowfullscreen>
+						</iframe>
+						
+					</div>
+
+					<div id = "quickbite" style = "display:none">
+						<br><br>
+						<h1>QuickBite - A Food App Solution</h1>
+						<br>
+						For this final project, me and my group interviewed multiple people about their experience with food delivery apps. After a set of interviews and noting down user needs and pain points the main problem that we arrived at was <i>“How might we create a reliable way to sort through open/closed restaurants and narrow down the choices for food in a food delivery app?”</i>
+						<br>
+						<br>
+						Following the brainstorming, our team landed on three main ideas to pursue for our final design which were intuitive tiles, user profiles, and filters based on time and mood. 
+						
+						<ol>
+							<br>
+							<li>The goal of intuitive tiles was to have the tiles clearly show the user whether the restaurant was open, closing soon, or was closed. 
+								Our idea was to represent these two ways. The first was	to have the restaurant's background either be green, yellow, or red to demonstrate its status. 
+								The	second way was to have the restaurant's information dimmed based on its status. 
+								We decided to add both ways to make the app accessible for color-blind users who might not be able to tell the difference between the colors.
+							</li>
+							<br>
+							<li>
+								Our second idea was to have user profiles where users could set preferences such as favorite foods and dietary restrictions. 
+								If a user was vegetarian, they could set that dietary restriction in their preferences and then would not be shown food with meat in it unless requested.
+							</li>
+							<br>
+							<li>
+								Our third idea was to have filters based on time and mood. 
+								The goal behind this idea was to have filters that a user could select that would show them popular choices based on the time of their order or what mood they are feeling.
+								It would also show the users' favorite/most commonly ordered choices around the current time.
+							</li>
+							<br>	
+						</ol> 
+
+						<iframe 
+						src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFEVtCdhPpwD6ymN5g8iHWq%2FFinal-Project%3Ftype%3Ddesign%26node-id%3D1-2%26t%3DUJO7aSGa8nn14INL-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" 
+						allowfullscreen>
+						</iframe>
+						
+					</div>
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+		<!--design start -->
+		<!-- <section id="design" class="education">
+			<div class="section-heading text-center">
+				<h2>design projects</h2>
+			</div>
+			
+			<div class="container">
+				<br><h3>Project Description:</h3><br> 
+				For this final project, me and my group interviewed multiple people about their experience with food delivery apps. After a set of interviews and noting down user needs and pain points the main problem that we	arrived at was “How might we create a reliable way to sort through open/closed restaurants and narrow down the choices for food in a food delivery app?”
+				<br>
+				Following the brainstorming, our team landed on three main ideas to pursue for our final design which were intuitive tiles, user profiles, and filters based on time and mood. 
+				<ol>
+					<li>The goal of intuitive tiles was to have the tiles clearly show the user whether the restaurant was open, closing soon, or was closed. 
+						Our idea was to represent these two ways. The first was	to have the restaurant's background either be green, yellow, or red to demonstrate its status. 
+						The	second way was to have the restaurant's information dimmed based on its status. 
+						We decided to add both ways to make the app accessible for color-blind users who might not be able to tell the difference between the colors.
+					</li>
+					<li>
+						Our second idea was to have user profiles where users could set preferences such as favorite foods and dietary restrictions. 
+						If a user was vegetarian, they could set that dietary restriction in their preferences and then would not be shown food with meat in it unless requested.
+					</li>
+					<li>
+						Our third idea was to have filters based on time and mood. 
+						The goal behind this idea was to have filters that a user could select that would show them popular choices based on the time of their order or what mood they are feeling.
+						It would also show the users' favorite/most commonly ordered choices around the current time.
+					</li>	
+				</ol> 
+
+				<iframe 
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFEVtCdhPpwD6ymN5g8iHWq%2FFinal-Project%3Ftype%3Ddesign%26node-id%3D1-2%26t%3DUJO7aSGa8nn14INL-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" 
+				allowfullscreen>
+				</iframe>
+			</div>
+
+		</section>/.design -->
+		<!--design end -->
+
+		<!--coding start -->
+		<!-- <section id="coding" class="experience">
+			<div class="section-heading text-center">
+				<h2>coding projects</h2>
+			</div>
+			
+			<div class="container">
+				<br><h3>Project Description:</h3><br> The Final Project for Comp Sci 559: Graphics coded in mainly UW Madison's CS559's framework of Three.js along with use of OpenGL shaders and Javascript. The theme of my town was Space (from a flat Planet's POV, before Galilleo proved celestial bodies in the solar system revolved around the Sun). The most important things to note in this project in my opinion are the following:
+				<ol id = "codingproj">
+					<li>The Rocket + RocketHead goes up and the RocketHead detaches at a certain point. After detaching, the Rocket goes back to the Launchpad, and the RocketHead thrusts further up, then into orbit.</li>
+					<li>The Station GrObject is a Space Station/Hotel that is a combination of various different primitive geometries. Capsules are the living pods, it has a main cylindrical area that has a rocket attached to it, and it is also connected to the outer tubes that keep the center of mass at the center of the main area.</li>
+					<li>The Planet is surrounded by 200 rocks that revolve around a rotating planet that is also revolving around the origin.</li>
+					<li>The Dome is a partial sphere, supposedly made out of glass so it is a reflective surface and reflects the stationary objects as well as those that move around and the Sky.</li>
+					<li>The Rover wheels rotate while the Rover moves in an elliptical path, as well as the rover camera pole moves left to right while the camera looks up and down as it explores the area and captures data.</li>
+				</ol>
+				
+				<a id = "codelink" href = "wbfinal-BTandon16/for_students/final-grtown.html" target="_blank">
+					Link to Working Project
+				</a>
+			</div>
+
+		</section> -->
+		<!--/.coding-->
+		<!--coding end -->
+
+		<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>contact form</h2>
+			</div>
+			<div class="container">
+				<script src="https://form.jotform.com/jsform/241181076580151"></script>
+			</div><!--/.container-->
+		</section><!--/.contact-->
+		<!--contact end -->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+		<!-- for progress bar start-->
+
+		<!-- progressbar js -->
+		<script src="assets/js/progressbar.js"></script>
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+		<!-- for progress bar end -->
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
